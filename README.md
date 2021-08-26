@@ -35,3 +35,16 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
     - `<a download="filename.png">`
       - instead of Content-Disposition: attachment; filename="myfile.png" to navigate to a file and trick the browser to download the file (this only works if you app involves a server to begin with)
   - more: <https://github.com/ebidel/html5can>
+- <https://3perf.com/blog/link-rels/>
+  - preload, prefetch, etc. in `<link>` tags:
+    - [preload](https://3perf.com/blog/link-rels/#preload) – when need resource ASAP, in a few seconds
+      - `<link rel="preload" href="/style.css" as="style" />`
+    - [prefetch](https://3perf.com/blog/link-rels/#prefetch) – when need resource for next page
+      - `<link rel="prefetch" href="/style.css" as="style" />`
+    - [preconnect](https://3perf.com/blog/link-rels/#preconnect) – when need resource soon, but don’t know full url yet
+      - `<link rel="preconnect" href="https://example.com" />`
+      - (or [dns-prefetch](https://3perf.com/blog/link-rels/#dns-prefetch) for older browsers): `<link rel="dns-prefetch" href="https://example.com" />`
+    - [prerender](https://3perf.com/blog/link-rels/#prerender) – when most users navigate to specific page, and you want speed up
+      - `<link rel="prerender" href="https://example.com/about.html" />`
+    - [modulepreload](https://3perf.com/blog/link-rels/#modulepreload) – when need ES module script ASAP
+      - `<link rel="modulepreload" href="/script.js" />`
