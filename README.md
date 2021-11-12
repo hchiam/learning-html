@@ -48,3 +48,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
       - `<link rel="prerender" href="https://example.com/about.html" />`
     - [modulepreload](https://3perf.com/blog/link-rels/#modulepreload) – when need ES module script ASAP
       - `<link rel="modulepreload" href="/script.js" />`
+- <https://www.linkedin.com/learning/html-essential-training-4/debugging-html>
+  - debugging HTML? open browser developer tools!
+- <https://www.linkedin.com/learning/html-essential-training-4/aria-roles>
+  - <https://cdpn.io/jensimmons/debug/wvwjxJa>
+  - Firefox dev tools > Accessibility tab > (expand to see things in the accessibility tree)
