@@ -2,6 +2,8 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
+<https://app.memrise.com/course/700032/learn-html>
+
 ## HTML tags you might not know about
 
 <https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_areamap>
