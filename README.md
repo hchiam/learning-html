@@ -16,6 +16,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 ## Miscellaneous notes
 
+- stuff you can do without JS-heavy web frameworks: https://codepen.io/hchiam/pen/ExbmjEP
+
 - difference between attributes and properties: https://stackoverflow.com/questions/6003819/what-is-the-difference-between-properties-and-attributes-in-html/6004028#6004028
 
 - <https://www.youtube.com/watch?v=X_ek1wSe66o>
