@@ -14,6 +14,10 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 <https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_template3>
 
+## not-well-known HTML attributes
+
+<https://www.smashingmagazine.com/2022/03/html-attributes-you-never-use>
+
 ## Miscellaneous notes
 
 - stuff you can do without JS-heavy web frameworks: https://codepen.io/hchiam/pen/ExbmjEP
