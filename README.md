@@ -8,6 +8,17 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 <https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_datalist>
 
+```html
+<input list="browsers"> <!-- input will autocomplete suggestions from the datalist options (not forced) -->
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+```
+
 <https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_areamap>
 
 <https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_abbr_test>
