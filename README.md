@@ -6,6 +6,13 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 ## HTML tags you might not know about
 
+<https://www.w3schools.com/tags/att_a_download.asp>
+
+```html
+<!-- the download attribute makes it download instead, and you an set the custom file name with download="custom.name" -->
+<a href="some/path/to/some/filename.whatever" download>
+```
+
 <https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_datalist>
 
 ```html
