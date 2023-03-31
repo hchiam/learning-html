@@ -6,6 +6,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 ## HTML tags you might not know about
 
+<https://www.youtube.com/shorts/nIcxzmiVFJg>
+
 <https://www.w3schools.com/tags/att_a_download.asp>
 
 ```html
