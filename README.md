@@ -85,3 +85,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
   - Firefox dev tools > Accessibility tab > (expand to see things in the accessibility tree)
 - `<wbr>` tag: word break / line break opportunity https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr
 - SVG commands M, L, and A (Q is harder to intuit): https://codepen.io/hchiam/pen/dywwRQE?editors=1000
+- `<base>` tag:
+  - `<base href="https://some.base.url.to.shorten.the.rest/" target="_blank">`
+  - `<base target="_blank">` to make all open in new tab https://www.w3schools.com/tags/tag_base.asp
+  - `data:` or `javascript:` URLs aren't supposed to be allowed in base, but Firefox doesn't support this https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base#browser_compatibility
