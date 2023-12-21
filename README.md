@@ -90,16 +90,13 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
   - `<base target="_blank">` to make all open in new tab https://www.w3schools.com/tags/tag_base.asp
   - `data:` or `javascript:` URLs aren't supposed to be allowed in base, but Firefox doesn't support this https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base#browser_compatibility
 
-## when to use `loading="lazy"` vs `fetchpriority="low"` vs `fetchpriority="high"`
-
-- `loading` = **_when_** to fetch (whether to wait until **_above the fold_**)
-- `fetchpriority` = **_how_** to fetch (whether to (de-)**_prioritize_** load)
-
-https://www.youtube.com/watch?v=3rAf_Yx7R_g
-- use `fetchpriority="high"` for one important image on page load, for example.
-- use `loading="lazy"` to load offscreen images or offscreen iframes only if/when they're in the viewport (above the fold).
-- use `fetchpriority="low"` for images that are technically in the viewport (above the fold) but are visually hidden from the user, like most of the images in a carousel that's already above the fold, for example.
-
-aside:
-- `loading` has good support https://caniuse.com/?search=loading
-- `fetchpriority` has not as good support https://caniuse.com/?search=fetchpriority
+- when to use `loading="lazy"` vs `fetchpriority="low"` vs `fetchpriority="high"`
+  - `loading` = **_when_** to fetch (whether to wait until **_above the fold_**)
+  - `fetchpriority` = **_how_** to fetch (whether to (de-)**_prioritize_** load)
+  - https://www.youtube.com/watch?v=3rAf_Yx7R_g
+    - use `fetchpriority="high"` for one important image on page load, for example.
+    - use `loading="lazy"` to load offscreen images or offscreen iframes only if/when they're in the viewport (above the fold).
+    - use `fetchpriority="low"` for images that are technically in the viewport (above the fold) but are visually hidden from the user, like most of the images in a carousel that's already above the fold, for example.
+  - aside:
+    - `loading` has good support https://caniuse.com/?search=loading
+    - `fetchpriority` has not as good support https://caniuse.com/?search=fetchpriority
