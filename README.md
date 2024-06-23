@@ -101,3 +101,19 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
   - aside:
     - `loading` has good support https://caniuse.com/?search=loading
     - `fetchpriority` has not as good support https://caniuse.com/?search=fetchpriority
+
+- `<video>`
+  - https://web.dev/patterns/web-vitals-patterns/video/video?hl=en#html
+    - ```html
+      <!-- poster is like youtube video thumbnail image: -->
+      <video controls width="960" height="540" poster="flower-960-poster.png">
+        <source src="flower-960.mp4" type="video/mp4">
+      </video>
+      ```
+  - https://web.dev/patterns/web-vitals-patterns/video/video-gif?hl=en
+    - ```html
+      <!-- loop makes the mp4 video behave like a gif: -->
+      <video controls autoplay loop muted playsinline width="320" height="240">
+        <source src="dog.mp4" type="video/mp4">
+      </video>
+      ```
