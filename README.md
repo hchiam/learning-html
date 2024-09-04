@@ -120,3 +120,5 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
       ```
 
 - space characters: `' '` and `&nbsp;` but did you know about `&puncsp;` (`'\u2008'`) which takes up space but is able to wrap? there's even more Unicode characters: https://stackoverflow.com/questions/8515365/are-there-other-whitespace-codes-like-nbsp-for-half-spaces-em-spaces-en-space
+
+- SVG arrows: https://codepen.io/hchiam/pen/vYqQWdM?editors=1000
