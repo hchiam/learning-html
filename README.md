@@ -126,3 +126,5 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
   - https://www.w3schools.com/html/html_symbols.asp
 
 - SVG arrows: https://codepen.io/hchiam/pen/vYqQWdM?editors=1000
+
+- to make a date input have a placeholder text (when not filled completely): https://codepen.io/hchiam/pen/dyBLWao
