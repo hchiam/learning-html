@@ -128,3 +128,21 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 - SVG arrows: https://codepen.io/hchiam/pen/vYqQWdM?editors=1000
 
 - to make a date input have a placeholder text (when not filled completely): https://codepen.io/hchiam/pen/dyBLWao
+
+- Jump anchor links:
+  ```html
+  <a href="#someIDLowerInThePage">jump to section</a>
+  <div id="someIDLowerInThePage" style="position:absolute;bottom:0;">you jumped to me!</div>
+  <p><a href="#top" style="position:absolute;bottom:4rem;">jump to top of page</a></p>
+  <p><a href="#" style="position:absolute;bottom:2rem;">jump to top of page too!</a></p>
+  <style>body{height:200dvh;position:relative;}</style>
+  ```
+
+- Jump to top of page:
+  ```html
+  href="#top"
+  ```
+  or
+  ```html
+  href="#"
+  ```
