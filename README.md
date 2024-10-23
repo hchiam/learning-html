@@ -129,7 +129,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 - to make a date input have a placeholder text (when not filled completely): https://codepen.io/hchiam/pen/dyBLWao
 
-- Jump anchor links:
+- Jump/skip anchor links:
   ```html
   <a href="#someIDLowerInThePage">jump to section</a>
   <div id="someIDLowerInThePage" style="position:absolute;bottom:0;">you jumped to me!</div>
