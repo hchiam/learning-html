@@ -124,6 +124,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 - HTML symbols / HTML entities: `&harr;` (↔) vs `&hArr;` (⇔) - capitalization matters! https://codepen.io/hchiam/pen/XWLyYZX
   - https://www.w3schools.com/html/html_entities.asp
   - https://www.w3schools.com/html/html_symbols.asp
+  - `&ltrif;` = left triangle filled
 
 - SVG arrows: https://codepen.io/hchiam/pen/vYqQWdM?editors=1000
 
