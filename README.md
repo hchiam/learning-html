@@ -147,3 +147,5 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
   ```html
   href="#"
   ```
+
+- save SVG markup as file: https://jakearchibald.github.io/svgomg/
