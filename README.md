@@ -1,4 +1,4 @@
-# Learning HTML / HTML5:
+# Learning HTML / HTML5
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
@@ -42,9 +42,9 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 ## Miscellaneous notes
 
-- stuff you can do without JS-heavy web frameworks: https://codepen.io/hchiam/pen/ExbmjEP
+- stuff you can do without JS-heavy web frameworks: <https://codepen.io/hchiam/pen/ExbmjEP>
 
-- difference between attributes and properties: https://stackoverflow.com/questions/6003819/what-is-the-difference-between-properties-and-attributes-in-html/6004028#6004028
+- difference between attributes and properties: <https://stackoverflow.com/questions/6003819/what-is-the-difference-between-properties-and-attributes-in-html/6004028#6004028>
 
 - <https://www.youtube.com/watch?v=X_ek1wSe66o>
   - HTML5 can do things you might not expect!
@@ -83,35 +83,38 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 - <https://www.linkedin.com/learning/html-essential-training-4/aria-roles>
   - <https://cdpn.io/jensimmons/debug/wvwjxJa>
   - Firefox dev tools > Accessibility tab > (expand to see things in the accessibility tree)
-- `<wbr>` tag: word break / line break opportunity https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr
+- `<wbr>` tag: word break / line break opportunity <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr>
   - `&shy;` is like `<wbr>` except it shows a hyphen when needed
-- SVG commands M, L, and A (Q is harder to intuit): https://codepen.io/hchiam/pen/dywwRQE?editors=1000
-- SVG `<animateMotion>`: https://codepen.io/hchiam/pen/QWoqqze
+- SVG commands M, L, and A (Q is harder to intuit): <https://codepen.io/hchiam/pen/dywwRQE?editors=1000>
+- SVG `<animateMotion>`: <https://codepen.io/hchiam/pen/QWoqqze>
 - `<base>` tag:
   - `<base href="https://some.base.url.to.shorten.the.rest/" target="_blank">`
-  - `<base target="_blank">` to make all open in new tab https://www.w3schools.com/tags/tag_base.asp
-  - `data:` or `javascript:` URLs aren't supposed to be allowed in base, but Firefox doesn't support this https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base#browser_compatibility
+  - `<base target="_blank">` to make all open in new tab <https://www.w3schools.com/tags/tag_base.asp>
+  - `data:` or `javascript:` URLs aren't supposed to be allowed in base, but Firefox doesn't support this <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base#browser_compatibility>
 
 - when to use `loading="lazy"` vs `fetchpriority="low"` vs `fetchpriority="high"`
   - `loading` = **_when_** to fetch (whether to wait until **_above the fold_**)
   - `fetchpriority` = **_how_** to fetch (whether to (de-)**_prioritize_** load)
-  - https://www.youtube.com/watch?v=3rAf_Yx7R_g
+  - <https://www.youtube.com/watch?v=3rAf_Yx7R_g>
     - use `fetchpriority="high"` for one important image on page load, for example.
     - use `loading="lazy"` to load offscreen images or offscreen iframes only if/when they're in the viewport (above the fold).
     - use `fetchpriority="low"` for images that are technically in the viewport (above the fold) but are visually hidden from the user, like most of the images in a carousel that's already above the fold, for example.
   - aside:
-    - `loading` has good support https://caniuse.com/?search=loading
-    - `fetchpriority` has not as good support https://caniuse.com/?search=fetchpriority
+    - `loading` has good support <https://caniuse.com/?search=loading>
+    - `fetchpriority` has not as good support <https://caniuse.com/?search=fetchpriority>
 
 - `<video>`
-  - https://web.dev/patterns/web-vitals-patterns/video/video?hl=en#html
+  - <https://web.dev/patterns/web-vitals-patterns/video/video?hl=en#html>
+
     - ```html
       <!-- poster is like youtube video thumbnail image: -->
       <video controls width="960" height="540" poster="flower-960-poster.png">
         <source src="flower-960.mp4" type="video/mp4">
       </video>
       ```
-  - https://web.dev/patterns/web-vitals-patterns/video/video-gif?hl=en
+
+  - <https://web.dev/patterns/web-vitals-patterns/video/video-gif?hl=en>
+
     - ```html
       <!-- loop makes the mp4 video behave like a gif: -->
       <video controls autoplay loop muted playsinline width="320" height="240">
@@ -119,18 +122,19 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
       </video>
       ```
 
-- space characters: `' '` and `&nbsp;` but did you know about `&puncsp;` (`'\u2008'`) which takes up space but is able to wrap? there's even more Unicode characters: https://stackoverflow.com/questions/8515365/are-there-other-whitespace-codes-like-nbsp-for-half-spaces-em-spaces-en-space
+- space characters: `' '` and `&nbsp;` but did you know about `&puncsp;` (`'\u2008'`) which takes up space but is able to wrap? there's even more Unicode characters: <https://stackoverflow.com/questions/8515365/are-there-other-whitespace-codes-like-nbsp-for-half-spaces-em-spaces-en-space>
 
-- HTML symbols / HTML entities: `&harr;` (↔) vs `&hArr;` (⇔) - capitalization matters! https://codepen.io/hchiam/pen/XWLyYZX
-  - https://www.w3schools.com/html/html_entities.asp
-  - https://www.w3schools.com/html/html_symbols.asp
+- HTML symbols / HTML entities: `&harr;` (↔) vs `&hArr;` (⇔) - capitalization matters! <https://codepen.io/hchiam/pen/XWLyYZX>
+  - <https://www.w3schools.com/html/html_entities.asp>
+  - <https://www.w3schools.com/html/html_symbols.asp>
   - `&ltrif;` = left triangle filled
 
-- SVG arrows: https://codepen.io/hchiam/pen/vYqQWdM?editors=1000
+- SVG arrows: <https://codepen.io/hchiam/pen/vYqQWdM?editors=1000>
 
-- to make a date input have a placeholder text (when not filled completely): https://codepen.io/hchiam/pen/dyBLWao
+- to make a date input have a placeholder text (when not filled completely): <https://codepen.io/hchiam/pen/dyBLWao>
 
 - Jump/skip anchor links:
+
   ```html
   <a href="#someIDLowerInThePage">jump to section</a>
   <div id="someIDLowerInThePage" style="position:absolute;bottom:0;">you jumped to me!</div>
@@ -140,12 +144,15 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
   ```
 
 - Jump to top of page:
+
   ```html
   href="#top"
   ```
+
   or
+
   ```html
   href="#"
   ```
 
-- save SVG markup as file: https://jakearchibald.github.io/svgomg/
+- save SVG markup as file: <https://jakearchibald.github.io/svgomg/>
