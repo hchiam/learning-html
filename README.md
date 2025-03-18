@@ -156,3 +156,5 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
   ```
 
 - save SVG markup as file: <https://jakearchibald.github.io/svgomg/>
+
+- `<td colspan="100%">` (instead of `<td colspan="3">`) will fill the remaining horizontal space
