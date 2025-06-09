@@ -158,3 +158,20 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 - save SVG markup as file: <https://jakearchibald.github.io/svgomg/>
 
 - `<td colspan="100%">` (instead of `<td colspan="3">`) will fill the remaining horizontal space
+
+- detect when all images have loaded:
+
+  `img` has a `.complete` property, so you can check if all `<img>`s in an HTML container are done loading, and you can do something like the following jQuery code:
+  
+  ```js
+  container.find('img').on('load', () => {
+    if (allImagesLoadingComplete(container)) {
+      callback();
+    }
+  });
+  
+  function allImagesLoadingComplete(container) {
+    const images = container.is('img') ? container : container.find('img');
+    return images.toArray().every(img => img.complete);
+  }
+  ```
