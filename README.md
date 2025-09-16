@@ -40,6 +40,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 <https://www.smashingmagazine.com/2022/03/html-attributes-you-never-use>
 
+- like the `multiple` attraibute as in `<input multiple>`, e.g. `<input type="file" multiple>` or `<input type="email" multiple>`
+
 ## Miscellaneous notes
 
 - stuff you can do without JS-heavy web frameworks: <https://codepen.io/hchiam/pen/ExbmjEP>
