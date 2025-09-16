@@ -175,3 +175,10 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
     return images.toArray().every(img => img.complete);
   }
   ```
+
+- `<-custom-tags-like-this>` are already supported by Safari
+  - custom element = custom HTML tag like the above, and
+  - web component = custom element + other stuff, including JS to control other stuff you can encapsulate like shadow DOM and templating/inheritance
+  - https://caniuse.com/?search=custom%20html%20tag and https://stackoverflow.com/questions/5682943/how-to-create-custom-tags-for-html
+    - the caniuse site's hover notes for Safari distinguish between "autonomous custom elements" and "customized built-in elements"
+    - it might seem like Safari would lack complete support for custom HTML tags, but it's possible to write custom tag names in HTML code (say, like in a fresh CodePen in Safari)
