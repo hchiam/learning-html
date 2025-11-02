@@ -184,3 +184,14 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
   - https://caniuse.com/?search=custom%20html%20tag and https://stackoverflow.com/questions/5682943/how-to-create-custom-tags-for-html
     - the caniuse site's hover notes for Safari distinguish between "autonomous custom elements" and "customized built-in elements"
     - it might seem like Safari would lack complete support for custom HTML tags, but it's possible to write custom tag names in HTML code (say, like in a fresh CodePen in Safari)
+
+- exclusive accordions (only one open at a time):
+  
+  ```html
+  <details name="linked-accordions">
+    ...
+  </details>
+  <details name="linked-accordions">
+    ...
+  </details>
+  ```
