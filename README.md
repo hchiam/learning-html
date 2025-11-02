@@ -195,3 +195,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
     ...
   </details>
   ```
+
+- 2 kinds of new "modals" with HTML:
+  - synchronous blocking UI: `<dialog>` (https://cascadiajs-2025.netlify.app/24-dialog/), and
+  - asynchronous non-blocking UI: `<div popover id="demo">...</div>` + `<button popovertarget="demo">Show</button>` (https://cascadiajs-2025.netlify.app/25-popover/)
